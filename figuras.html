@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figuras Geométricas | Curso de JavaScript</title>
+</head>
+<body>
+    <script src="./figuras.js"> </script>
+    <!-- vinculamos el documento html con el de js -->
+
+<header>
+    <header>
+        <h1>
+            Figuras Geométricas
+        </h1>
+        <p>Este es el primer taller del curso práctico de JavaScript práctico</p>
+    </header>
+
+    <section>
+        <h2>Calcula el aréa y perímetro de un cuadrado</h2>
+        <form>
+            <label for="inputCuadrado">
+                Escribe cuanto mide cada lado de tu cuadrado:
+            </label>
+            <input id="inputCuadrado" type="number">
+
+            <button type="button" onclick="calcularPerimetroCuadrado()">
+                Calcular el perímeto
+            </button>
+            <button type="button" onclick="calcularAreaCuadrado()">
+                Calcular el aréa
+            </button>
+        </form>
+    </section>
+
+    <section>
+        <h2>El ejercicio del triangulo isoseles</h2>
+        <form>
+
+            <label for="inputLado1"> <!-- primer lado-------------------------------- -->
+                Escribe la medida del primer lado:
+            </label>
+            <input id="inputLado1" type="number">
+            <label for="inputLado2"> <!-- segundo lado------------------------------- -->
+                Escribe la medida del segundo lado:
+            </label>
+            <input id="inputLado2" type="number">
+
+            <label for="inputBase"> <!-- base------------------------------- -->
+                Escribe la medida de la base:
+            </label>
+            <input id="inputBase" type="number">
+
+            <br>
+
+            <button type="button" onclick="alturaEjercicio()">
+                Calcular Altura
+            </button>
+            <button type="button" onclick="perimetroEjercico()">
+                Calcular Perimetro
+            </button>
+            <button type="button" onclick="areaEjercico()">
+                Calcular area
+            </button>
+
+        </form>
+
+    </section>
+
+</body>
+</html>
