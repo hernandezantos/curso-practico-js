@@ -7,4 +7,11 @@
 -Primer paso: definir las formas
 -Segundo paso: implementar las formulas en Js
 -Tercer paso: crear funciones
--Cuarto paso: integrar js con htnl
+-Cuarto paso: integrar js con html
+
+## Taller no. 2: Porcentajes y descuentos
+
+-Primer paso: definir las formulas
+-Segundo paso: implementar las formulas en Js
+-Tercer paso: crear funciones
+-Cuarto paso: integrar js con html
